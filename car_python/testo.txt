@@ -1,0 +1,10 @@
+questo file serve per visulaizzare tutto quello 
+che verra chiamato da pyton in modo automatico 
+come 
+faccio 
+a gestir 
+quest 
+file come 
+una lista
+
+fine del testofine del testofine del testo

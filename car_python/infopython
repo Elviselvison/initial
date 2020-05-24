@@ -1,0 +1,71 @@
+il linguaggio non tipizzato
+per fare la divisione e attenere solo il numero intero uso // 
+per ottenere solo il resto uso %
+potenza ** 
+posso usare + per fare la somma su 2 stringhe ,o separare i dati con una virgola 
+con input posso prendere dati da tastiera. questo input per essere salvato va inserito in una variabile .
+gestionedelle eccezioni 
+try -- except  ecvenualmente specificare il tipo di errore che si vuole monitorare 
+didefsult la funzione input richiede una stringa 
+gestione della formatazione
+
+%s is used as a placeholder for string values you want to inject into a formatted string. %d is used as a placeholder for numeric or decimal values
+s = string 
+f float 
+d decimal 
+print (f"il mio gato si chiama{ nome} e ha {età} anni")
+
+gestion delle sequenze di dati 
+le liste -- con la slicing estrago  i componenti della lista 
+my_list [:] tutta la lista 
+my_list [:3] da primo al 4 elemento
+my_list [::-1] il senso della selezione 
+modofica dei valori 
+my_list [0] = 7 
+my_list [-2:] = [4,5] modificato gli ultimi 2 
+per vedere se un valore è presente all'interni di un alista 
+"x" in my_list restituisce tru o flase 
+la rimozione per valore 
+my_list.remove("gatto")
+rimozione di indice o estrazione
+list =my_list.pop(1)
+aggiungere lementi lla lista 
+my_list.append("uomo")
+il metodo insert 
+my_list.insert(1, 'topo')
+
+Tuple () sono non modoficabili però posso conertire una tupla in lista 
+
+set sono un insieme di elementi unici non ordinabili 
+con il metodo add posso aggiungere nuovi elementi ad un set viene fatta una aggiunta casuale 
+il metodo remove seve a rimuovere elementi il metodo discard viene usato per rimuovere quando non siamo sicuro che l'lelemento c'è
+per creare un forzen set uso la funzione frozen set 
+ciclo for
+tmp = next_fib
+next_fib+=fib or nexfib = nex_fib +fib 
+swapping per invertire il valore di 2 variabili
+old school uso la temp 
+new school faccio l'assegnazione temporanea 
+a,b = b,a 
+- posso con il ciclo for andare a lavorare su un range di dati 
+for i in range (0,n  ) --> print i 
+posso invece di gestire il range gestire direttamente l'entry o tutti gli elementi 
+for entry in my_list 
+print ("%s" %(entry))  --> però in questo modo perdo l'indice 
+per poter avere sia l'indice che l'entità posso usare il metodo enumerate 
+for i, entry in enumerate(my_list)
+print("%d) %s" %(i, entry))
+bool ==, != , >, <, >=, =<,
+ciclo while 
+(i%3==0) se il resto della divisione di i/3 =0 ==> se i è multiplo di 3 in altre parole 
+
+classe
+è una modello formato da un insieme di oggetti 
+risulta che la classe è come una fabricadi oggetti 
+e ciscun oggetto da questa classe viene chiamato istanza
+
+# variabile di istanza e variabile di classe 
+variabili di istanza : con self 
+variabile di classe : consivisa per tutte le istanze 
+
+
