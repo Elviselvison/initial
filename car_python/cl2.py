@@ -1,6 +1,6 @@
 class Persona:# altro modo di gestire le classi
     #costruttore alternativo ad init
-    #
+    # aggiunto a git 
 
     def __init__(self,nome, cognome, età, residenza):
         self.nome=nome
